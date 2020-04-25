@@ -1,13 +1,15 @@
 [tool.poetry]
-name = "pytorchtutorial"
+name = "pytorch-sample"
 version = "0.1.0"
 description = ""
-authors = ["Hiroto_Takegawa <h_takegawa@pkshatech.com>"]
+authors = ["ariririri"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
 torch = "^1.5"
 torchvision = "^0.6"
+matplotlib = "^3.2"
+Pillow = "^7.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"

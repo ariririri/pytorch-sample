@@ -68,7 +68,6 @@ def main():
     hparams = load_hparams()
     train_loader, test_loader = load_dataloader(hparams)
 
-    #model = Net(hparams.input_size, hparams.output_size)
     model = CNNNet()
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=hparams.learning_rate)

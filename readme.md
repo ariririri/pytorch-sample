@@ -9,8 +9,8 @@ poetry install
 
 ## 目標
 - [ ] MLP
-  - [ ] MLP
-  - [ ] L^2/L^1 loss
+  - [x] MLP
+  - [ ] L2/L1 loss
   - [ ] Dropout
   - [ ] early stopping
 - [ ] 最適化アルゴリズム
@@ -29,7 +29,7 @@ poetry install
   - [ ] Attention
 - [ ] 生成モデル
   - [ ] VAE
-  - [ ] DCGAN
+  - [x] DCGAN
   - [ ] Conditional GAN
 - [ ] 強化学習
   - [ ] DQN

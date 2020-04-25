@@ -1,3 +1,7 @@
 .ipynb_checkpoints
 .vscode
 *egg
+__pycache__
+
+
+generator/data

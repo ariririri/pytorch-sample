@@ -77,3 +77,11 @@ Architecture guidelines for stable Deep Convolutional GANs
 • Use LeakyReLU activation in the discriminator for all layers.
 
 これが本質的に聞くかどうかは実験してみて評価.
+
+これには書いていないがlossの変更もある.
+$\log(1 - D(G(z))))$の場合,勾配が0に張り付く可能性が高いため、変更する.
+
+
+### Condtional GAN
+- fake画像に正解ラベルの情報を加えたGAN
+- 精度があがる.
