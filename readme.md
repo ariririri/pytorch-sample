@@ -1,5 +1,12 @@
 # Pytorchのサンプルコードをおく
 
+## How to user poetry
+
+```
+poetry install
+```
+[For detail](https://org-technology.com/posts/python-poetry.html#org8bc4a1e)
+
 ## 目標
 - MLP
 - 正則化
