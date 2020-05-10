@@ -133,6 +133,7 @@ def concat_noise_label(noise, label, device):
 
 
 def main():
+    # celebaのデータが必要.
     dataset = dset.ImageFolder(root='./celeba', 
                       transform=transforms.Compose([
                           transforms.RandomResizedCrop(64, scale=(0.9, 1.0), ratio=(1., 1.)),
@@ -144,6 +145,7 @@ def main():
 
     dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size,
                                          shuffle=True, num_workers=int(workers))
+
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print('device:', device)
@@ -161,7 +163,7 @@ def main():
 
     fixed_noise = torch.randn(batch_size, nz, 1, 1, device=device)
 
-    fixed_label = [i for i in range(7)] * (batch_size // 7)  # 0〜6のラベルの繰り返し
+    fixed_label = [i for i in range(7, 9)] * (batch_size // 2)  # 7,8のラベルの繰り返し
     fixed_label = torch.tensor(fixed_label, dtype=torch.long, device=device)
 
     fixed_noise_label = concat_noise_label(fixed_noise, fixed_label, device)  

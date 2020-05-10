@@ -30,7 +30,7 @@ poetry install
 - [ ] 生成モデル
   - [ ] VAE
   - [x] DCGAN
-  - [ ] Conditional GAN
+  - [x] Conditional GAN
 - [ ] 強化学習
   - [ ] DQN
 - [ ] 画像
