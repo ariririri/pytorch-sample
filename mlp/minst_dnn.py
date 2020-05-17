@@ -12,7 +12,6 @@ import torch.optim as optim
 
 from torch.utils.tensorboard import SummaryWriter
 
-
 def load_dataloader(hparams):
     train_loader = torch.utils.data.DataLoader(
         datasets.MNIST('./', train=True, download=True,
@@ -63,7 +62,7 @@ def main():
     hparams = load_hparams()
     train_loader, test_loader = load_dataloader(hparams)
 
-    model = Net()
+    model = Net(28 * 28)
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=hparams.learning_rate)
 

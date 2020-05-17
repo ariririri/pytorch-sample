@@ -5,3 +5,7 @@ __pycache__
 
 
 generator/data
+
+MNIST
+logs
+cnn/data/cifar-10-*
