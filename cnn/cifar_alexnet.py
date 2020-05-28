@@ -46,7 +46,6 @@ def load_hparams():
     return hparams
 
 
-
 class AlexNet(nn.Module):
 
     def __init__(self, num_classes=1000):
