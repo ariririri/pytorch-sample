@@ -9,3 +9,4 @@ generator/data
 MNIST
 logs
 cnn/data/cifar-10-*
+objectdetection/data
