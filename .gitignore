@@ -10,3 +10,5 @@ MNIST
 logs
 cnn/data/cifar-10-*
 objectdetection/data
+rnn/data*
+rnn/run*
