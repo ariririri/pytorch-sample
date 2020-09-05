@@ -9,6 +9,8 @@ generator/data
 MNIST
 logs
 cnn/data/cifar-10-*
+cnn/data/train
+cnn/data/test
 objectdetection/data
 rnn/data*
 rnn/run*

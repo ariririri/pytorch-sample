@@ -1312,7 +1312,7 @@ description = "Fast, Extensible Progress Meter"
 name = "tqdm"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*"
-version = "4.46.1"
+version = "4.48.2"
 
 [package.extras]
 dev = ["py-make (>=0.1.0)", "twine", "argopt", "pydoc-markdown"]
@@ -1427,7 +1427,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "334ea75f870f6463b4c21802d11b294bd8af68a030c68bd9e27de0134c27b463"
+content-hash = "9d5a7e35332af6da20b24c829c26046f1a4779b2f9549056bcc7929520eaae48"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -2206,8 +2206,8 @@ tornado = [
     {file = "tornado-6.0.4.tar.gz", hash = "sha256:0fe2d45ba43b00a41cd73f8be321a44936dc1aba233dee979f17a042b83eb6dc"},
 ]
 tqdm = [
-    {file = "tqdm-4.46.1-py2.py3-none-any.whl", hash = "sha256:07c06493f1403c1380b630ae3dcbe5ae62abcf369a93bbc052502279f189ab8c"},
-    {file = "tqdm-4.46.1.tar.gz", hash = "sha256:cd140979c2bebd2311dfb14781d8f19bd5a9debb92dcab9f6ef899c987fcf71f"},
+    {file = "tqdm-4.48.2-py2.py3-none-any.whl", hash = "sha256:1a336d2b829be50e46b84668691e0a2719f26c97c62846298dd5ae2937e4d5cf"},
+    {file = "tqdm-4.48.2.tar.gz", hash = "sha256:564d632ea2b9cb52979f7956e093e831c28d441c11751682f84c86fc46e4fd21"},
 ]
 traitlets = [
     {file = "traitlets-4.3.3-py2.py3-none-any.whl", hash = "sha256:70b4c6a1d9019d7b4f6846832288f86998aa3b9207c6821f3578a6a6a467fe44"},
